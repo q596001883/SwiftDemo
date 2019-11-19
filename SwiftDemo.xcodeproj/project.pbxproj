@@ -103,8 +103,8 @@
 				04FCFA79237A5078006449CA /* CommonDefine.swift */,
 				04FCFA8C237A90FD006449CA /* URLPath.swift */,
 				04FCFA8B237A90B5006449CA /* BaseViewController */,
-				04FCFA7D237A5965006449CA /* NetworkTool */,
 				04FCFA77237A4FAB006449CA /* TabBarViewController */,
+				04FCFA7D237A5965006449CA /* NetworkTool */,
 				04FCFA78237A4FCC006449CA /* Controllers */,
 				04629E95237901130090D405 /* Assets.xcassets */,
 				04629E97237901130090D405 /* LaunchScreen.storyboard */,
@@ -143,14 +143,14 @@
 		04FCFA7E237A5B8D006449CA /* OneController */ = {
 			isa = PBXGroup;
 			children = (
-				04FCFA85237A9057006449CA /* controller */,
-				04FCFA86237A9064006449CA /* model */,
+				04FCFA85237A9057006449CA /* Controller */,
+				04FCFA86237A9064006449CA /* Model */,
 				04FCFA87237A906C006449CA /* VM */,
 			);
 			name = OneController;
 			sourceTree = "<group>";
 		};
-		04FCFA85237A9057006449CA /* controller */ = {
+		04FCFA85237A9057006449CA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				04629EBA237910CD0090D405 /* OneViewController.swift */,
@@ -158,16 +158,16 @@
 				046B51A2238282EE00672DAD /* One1ViewController.swift */,
 				046B51A3238282EE00672DAD /* One1ViewController.xib */,
 			);
-			name = controller;
+			name = Controller;
 			sourceTree = "<group>";
 		};
-		04FCFA86237A9064006449CA /* model */ = {
+		04FCFA86237A9064006449CA /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				04FCFA7F237A5EFC006449CA /* OneModel.swift */,
 				04FCFA8E237A94AA006449CA /* PostModel.swift */,
 			);
-			name = model;
+			name = Model;
 			sourceTree = "<group>";
 		};
 		04FCFA87237A906C006449CA /* VM */ = {
